@@ -1,0 +1,11 @@
+a = float(input())
+if a == 0:
+    print("a = 0")
+elif a > 0:
+    print("a > 0")
+else:
+    print("a < 0")
+if int(a) == a:
+    print("a - целочисленное число")
+else:
+    print("a - дробное число")
